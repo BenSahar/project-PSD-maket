@@ -1,0 +1,166 @@
+@font-face {
+    font-family: Montserrat-bold;
+    src: url('fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-regular;
+    src: url('fonts/Montserrat-Regular.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 770px;
+    background-image: url("img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    color: white;
+}
+
+header li {
+    list-style-type: none;
+    display: inline-block;
+    font-family: Montserrat-regular;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: inline-block;
+    font-family: Montserrat-bold;
+
+}
+
+header li a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 18px;
+    margin-left: 18px;
+
+}
+
+header ul {
+    display: inline-block;
+    width: calc(100% - 100px);
+    text-align: right;
+}
+
+nav {
+    padding-top: 40px;
+}
+
+.logo h2 {
+    font-size: 24px;
+}
+
+header h1 {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    font-family: Montserrat-regular;
+    margin-top: 260px;
+}
+
+header p {
+    text-align: center;
+    font-family: Montserrat-regular;
+    color: white;
+}
+
+header a {
+    display: block;
+    text-align: center;
+    font-family: Montserrat-regular;
+    color: white;
+    margin-top: 65px;
+
+}
+
+.button {
+    padding: 13px 25px;
+    font-size: 16px;
+    border: 2px white solid;
+    display: inline-block;
+}
+
+section {
+    margin-top: 95px;
+}
+
+.mainheader {
+    text-align: center;
+    font-size: 20px;
+    font-family: Montserrat-regular;
+}
+
+.subheader {
+    text-align: center;
+    font-size: 16px;
+    font-family: Montserrat-regular;
+}
+
+.line {
+    width: 50px;
+    height: 2px;
+    background: black;
+    margin: 25px auto 24px;
+}
+
+.services {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding: 70px 15px 100px;
+    box-sizing: border-box;
+    font-family: Montserrat-regular;
+    font-size: 14px;
+}
+
+.services h3 {
+    margin: 25px 0 18px;
+}
+
+.service_img {
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    line-height: 80px;
+    font-size: 60px;
+    font-family: serif;
+    font-weight: 600;
+    color: #c0301c;
+
+}
+
+header {
+    display: none;
+}
+
+.services:hover .service_img {
+    background: #c0301c;
+    color: white;
+}
+
+.column {
+    box-sizing: border-box;
+    width: 49%;
+    display: inline-block;
+    text-align: left;
+    padding: 70px 17px;
+    font-family: Montserrat-regular;
+    vertical-align: top;
+}
